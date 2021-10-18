@@ -83,6 +83,14 @@ boxes.forEach(element=>{
     gameOver=false
 })
 })
+document.querySelector('.seperate').addEventListener('click',()=>{
+msg.style.display="";
+boxes.forEach(element=>{
+    element.innerText="";
+    filled=0;
+    gameOver=false
+})
+})
 // boxes.forEach(element=>{
 //     element.addEventListener('click',()=>{
 //         console.log("harshs")
